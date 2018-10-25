@@ -12,8 +12,8 @@ import static org.junit.Assert.assertEquals;
 
 public class googleSearchStepDefinitions {
 
-    WebDriver driver;
-    String pathToChromeDriver= "C:\\Users\\Denis\\Documents\\DHBW\\3. Semester\\Software Engineering\\dev\\chromedriver_win321\\chromedriver.exe";
+    private WebDriver driver;
+    private String pathToChromeDriver= "C:\\Users\\Denis\\Documents\\DHBW\\3. Semester\\Software Engineering\\dev\\chromedriver_win321\\chromedriver.exe";
 
     @Given("^I open the Chrome Browser and go to \"([^\"]*)\"$")
     public void iOpenTheChromeBrowserAndGoTo(String url) throws Throwable {
