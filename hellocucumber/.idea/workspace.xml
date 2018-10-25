@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9632c-2177-447b-a4b4-2b2c75aa1fac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/googleSearchStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/googleSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/dhbwNavigationStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/dhbwNavigation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellocucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hellocucumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hellocucumber/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/Stepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hellocucumber/Stepdefs2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/Stepdefs2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/IsItFriday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/IsItFriday2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/Stepdefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/Stepdefs2.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,29 +55,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="3" />
-          <entry key="java" value="7" />
+          <entry key="feature" value="4" />
+          <entry key="java" value="10" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="3" />
-          <entry key="JAVA" value="7" />
+          <entry key="Cucumber" value="4" />
+          <entry key="JAVA" value="10" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="405" />
-          <entry key="java" value="400" />
+          <entry key="feature" value="708" />
+          <entry key="java" value="572" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="405" />
-          <entry key="JAVA" value="400" />
+          <entry key="Cucumber" value="708" />
+          <entry key="JAVA" value="572" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -122,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/is_it_friday_yet.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,17 +97,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/googleSearch.feature">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/googleSearchStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/dhbwNavigation.feature">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/googleSearchStepDefinitions.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/dhbwNavigationStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+            <state relative-caret-position="383">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,6 +160,8 @@
         <option value="$PROJECT_DIR$/src/test/java/hellocucumber/Steps/Steps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/googleSearch.feature" />
         <option value="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/googleSearchStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/dhbwNavigation.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/dhbwNavigationStepDefinitions.java" />
       </list>
     </option>
   </component>
@@ -261,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540487815513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540490643252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -283,7 +273,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: googleSearch">
+  <component name="RunManager" selected="Cucumber java.Feature: dhbwNavigation">
+    <configuration name="Feature: dhbwNavigation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/hellocucumber/dhbwNavigation.feature" />
+      <option name="GLUE" value="hellocucumber.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="hellocucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: dhbwNavigation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: googleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/hellocucumber/googleSearch.feature" />
@@ -342,9 +350,11 @@
       <item itemvalue="Cucumber java.Feature: is_it_friday_yet" />
       <item itemvalue="Cucumber java.Feature: is_it_friday_yeat2" />
       <item itemvalue="Cucumber java.Feature: googleSearch" />
+      <item itemvalue="Cucumber java.Feature: dhbwNavigation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: dhbwNavigation" />
         <item itemvalue="Cucumber java.Feature: googleSearch" />
         <item itemvalue="Cucumber java.Feature: is_it_friday_yeat2" />
         <item itemvalue="Cucumber java.Feature: is_it_friday_yet" />
@@ -367,44 +377,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__is_it_friday_yet - 2018.10.25 at 18h 21m 55s.xml">
-      <configuration name="Feature: is_it_friday_yet" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__is_it_friday_yet - 2018.10.25 at 18h 22m 08s.xml">
-      <configuration name="Feature: is_it_friday_yet" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__is_it_friday_yeat2 - 2018.10.25 at 18h 25m 23s.xml">
-      <configuration name="Feature: is_it_friday_yeat2" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__is_it_friday_yeat2 - 2018.10.25 at 18h 36m 28s.xml">
-      <configuration name="Feature: is_it_friday_yeat2" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__is_it_friday_yeat2 - 2018.10.25 at 18h 36m 36s.xml">
-      <configuration name="Feature: is_it_friday_yeat2" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__is_it_friday_yeat2 - 2018.10.25 at 18h 40m 06s.xml">
-      <configuration name="Feature: is_it_friday_yeat2" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__googleSearch - 2018.10.25 at 18h 58m 34s.xml">
+    <history-entry file="Feature__googleSearch - 2018.10.25 at 19h 20m 43s.xml">
       <configuration name="Feature: googleSearch" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__googleSearch - 2018.10.25 at 18h 59m 11s.xml">
+    <history-entry file="Feature__googleSearch - 2018.10.25 at 19h 21m 02s.xml">
       <configuration name="Feature: googleSearch" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__googleSearch - 2018.10.25 at 19h 08m 42s.xml">
-      <configuration name="Feature: googleSearch" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 44m 48s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__googleSearch - 2018.10.25 at 19h 09m 55s.xml">
-      <configuration name="Feature: googleSearch" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 46m 02s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 48m 26s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 48m 59s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 50m 12s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 52m 09s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 53m 37s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__dhbwNavigation - 2018.10.25 at 19h 53m 55s.xml">
+      <configuration name="Feature: dhbwNavigation" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3058000" />
+    <option name="totallyTimeSpent" value="5254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,7 +424,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,14 +492,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/is_it_friday_yet.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/googleSearchStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -516,29 +520,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/Steps/Steps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/Steps/Steps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/dhbwNavigation.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/googleSearch.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/googleSearchStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        <state relative-caret-position="238">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions/dhbwNavigationStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
