@@ -25,7 +25,8 @@ public class googleSearchStepDefinitions {
 
     @When("^I write \"([^\"]*)\" into the search bar$")
     public void iWriteIntoTheSearchBar(String keyword) throws Throwable {
-        driver.findElement(By.className("gsfi")).sendKeys(keyword);
+        driver.findElement(By.className("" +
+                "")).sendKeys(keyword);
         Thread.sleep(1000);
     }
 
