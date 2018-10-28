@@ -7,6 +7,7 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static org.junit.Assert.assertEquals;
 
@@ -14,6 +15,7 @@ public class googleSearchStepDefinitions {
 
     private WebDriver driver;
     private String pathToChromeDriver= "..\\hellocucumber\\driver\\chromedriver.exe";
+    private String pathToFirefoxDriver= "..\\hellocucumber\\\\driver\\\\geckodriver.exe";
 
     @Given("^I open the Chrome Browser and go to \"([^\"]*)\"$")
     public void iOpenTheChromeBrowserAndGoTo(String url) throws Throwable {
@@ -25,8 +27,7 @@ public class googleSearchStepDefinitions {
 
     @When("^I write \"([^\"]*)\" into the search bar$")
     public void iWriteIntoTheSearchBar(String keyword) throws Throwable {
-        driver.findElement(By.className("" +
-                "")).sendKeys(keyword);
+        driver.findElement(By.id("lst-ib")).sendKeys(keyword);
         Thread.sleep(1000);
     }
 
