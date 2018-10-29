@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class dhbwNavigationStepDefinitions {
 
-    private String pathToChromeDriver= "C:\\Users\\Denis\\Documents\\DHBW\\3. Semester\\Software Engineering\\dev\\chromedriver_win321\\chromedriver.exe";
+    private String pathToChromeDriver= "..\\hellocucumber\\driver\\chromedriver.exe";
     private WebDriver driver;
 
     @Given("^I open the Chrome Browser and go to the Page \"([^\"]*)\"$")
