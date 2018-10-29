@@ -1,13 +1,21 @@
 Feature: Does the Calculator work?
   I want to know if my Calculator adds and multiplicates correctly
 
-  Scenario: Does my Calculator multiplicate two numbers correctly
-    Given I type the "<firstNumber>" into my calculator
-    When I multiplicate it with "<secondNumber>"
-    Then My Calculator should return "<answer>"
+  Scenario: Can my Calculator add two numbers?
+    Given I type in 3
+    When I add the number 4
+    Then The Calculator should add and return 7
+
+
+  Scenario Outline: Can my Calculator multiplicate numbers with 5?
+    Given I type in 5
+    When I type in the number "<firstNumber>"
+    Then The Calculator should multiplicate and return "<answer>"
 
     Examples:
-      | firstNumber | secondNumber |  answer |
-      | 2 | 5 |  10 |
-      | 3 | 4 |  12 |
-      | -2 | 6 |  -12 |
+      | firstNumber | answer |
+      | 2 | 10 |
+      | 5 | 25 |
+      | -6 | -30 |
+
+
