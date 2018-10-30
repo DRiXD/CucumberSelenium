@@ -1,4 +1,4 @@
-Feature: The Navigation Bar is there and can be openende
+Feature: The Navigation Bar is there and can be openend
   
   Scenario: Open the Navigation Bar on DHBW Homepage
     Given I open the Chrome Browser and go to the Page "http://www.karlsruhe.dhbw.de/startseite"
